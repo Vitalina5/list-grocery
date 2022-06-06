@@ -1,0 +1,63 @@
+body {
+  background-color: #c2d3da;
+}
+
+.app {
+  background-color: #eff4f6;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+li, ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.add {
+  background: #fcb12c;
+  margin-top: 5px;
+}
+
+.delete {
+  background: #5f7b92;
+  margin-bottom: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  margin: 15px 0px;
+
+}
